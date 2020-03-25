@@ -9,7 +9,7 @@ import sys
 def rotate(a,d,n):
     # n = len(a)
     temp = a[:d]        #taking elements upto d bcoz in case of left rotation d elements will be append atlast and all will be shifted refer sample test cases.
-    a = a[d:]
+    a = a[d:] 
     a.extend(temp)
     
     return a
